@@ -24,5 +24,5 @@ def chatbot():
         if user_input.lower() == 'exit':
             break
 if __name__ == "__main__":
-    nltk.download('punkt')  # Ensure NLTK resources are downloaded
+    nltk.download('punkt')  
     chatbot()
